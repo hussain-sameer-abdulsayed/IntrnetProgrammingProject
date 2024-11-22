@@ -1,0 +1,313 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #5cb85c;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  height: 100%;
+  text-align: center;
+}
+
+/* Input Fields */
+.input-container input,
+.input-container textarea {
+  width: calc(100% - 90px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.input-container textarea {
+  height: 100px;
+  resize: none;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background: #4cae4c;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-header h3 {
+  margin: 0;
+}
+
+.task-header button {
+  background: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-header button.delete {
+  background: #d9534f;
+}
+
+.task-header button:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+a.link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #5cb85c;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+/* About Page Styles */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #5cb85c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+/* Status Indicator Styles */
+.status {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Yellow for Incomplete */
+.status.incomplete {
+  background-color: #ffc107; /* Yellow */
+  border: 1px solid #e0a800;
+}
+
+/* Green for Completed */
+.status.completed {
+  background-color: #28a745; /* Green */
+  border: 1px solid #218838;
+}
+/* Contact Page Styles */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
+
+.response-message {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+/* Home Page Styling */
+main.content {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* App Introduction Section */
+.intro {
+  background-color: #e2e6ea;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.intro p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* How to Use Section */
+.how-to-use {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.how-to-use h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.how-to-use ol {
+  padding-left: 20px;
+}
+
+.how-to-use li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Additional Info Section */
+.additional-info {
+  background-color: #e2e6ea;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.additional-info h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.additional-info p {
+  font-size: 16px;
+  color: #555;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add To-Do</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/index.html"><h1>To-Do App</h1></a>
+      <div>
+        <a href="/index.html">Home</a>
+        <a href="/pages/add.html">Add To-Do</a>
+        <a href="/pages/view.html">View To-Dos</a>
+        <a href="/pages/about.html">About</a>
+        <a href="/pages/contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Add a New To-Do</h1>
+      <div class="input-container">
+        <input type="text" id="taskTitle" placeholder="Enter task title" />
+        <textarea
+          id="taskDescription"
+          placeholder="Enter task description"
+        ></textarea>
+        <button id="addTaskBtn">Add Task</button>
+      </div>
+      <a href="/pages/view.html" class="link">View To-Dos</a>
+    </div>
+
+    <div class="footer">&copy; 2024 To-Do App. All Rights Reserved.</div>
+    <script src="/js/add.js"></script>
+  </body>
+</html>
